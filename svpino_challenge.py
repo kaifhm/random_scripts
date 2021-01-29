@@ -1,9 +1,7 @@
 # Solutions to @svpino 's code challenge on twitter
 # The original thread can be found on https://twitter.com/svpino/status/1354048200601198593
 
-from random import shuffle
-a = list(range(1, 21))
-shuffle(a)
+
 # 1 - Reverse an array in place
 def reverse_inplace(array):
     len_arr = len(array)
